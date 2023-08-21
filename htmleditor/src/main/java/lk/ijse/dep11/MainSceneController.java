@@ -1,2 +1,4 @@
-package lk.ijse.dep11;public class MainSceneController {
+package lk.ijse.dep11;
+
+public class MainSceneController {
 }
