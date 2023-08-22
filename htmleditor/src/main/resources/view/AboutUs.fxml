@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.AboutUsController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="509.0" layoutX="112.0" layoutY="250.0" stroke="BLACK" strokeType="INSIDE" width="369.0" />
+      <TextArea editable="false" layoutX="128.0" layoutY="363.0" prefHeight="378.0" prefWidth="338.0" text="Welcome to CodeCompose Studio v1.0! We are thrilled to introduce you to our powerful software designed to elevate your HTML coding experience. CodeCompose Studio is a feature-rich development environment that empowers programmers to create, edit, and optimize code with ease. From novice developers to seasoned professionals, CodeCompose Studio is your go-to solution for efficient and effective coding.&#10;&#10;CodeCompose Studio and its associated logos are registered trademarks of Code Space Studio. All rights reserved.&#10;&#10;CodeCompose Studio is released under the MIT License, a permissive open-source license that allows you to use, modify, and distribute the software, subject to certain conditions. &#10;&#10;Contact Us:&#10;We value your feedback and are dedicated to continuously improving your experience with CodeCompose Studio. If you have any questions, suggestions, or inquiries, please contact us at contact@codecomposestudio.com.&#10;&#10;Thank you for choosing CodeCompose Studio v1.0. Happy coding!" wrapText="true" />
+      <ImageView fitHeight="800.0" fitWidth="600.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="368.65625" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="69.0">
+         <image>
+            <Image url="@../asset.img/1_2wd_hp2-XX-gdze4f4EZlQ.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="257.0" layoutY="301.0" prefHeight="31.0" prefWidth="79.0" text="About Us">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
